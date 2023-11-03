@@ -1,0 +1,67 @@
+:root{
+    --button-color: rgb(237, 240, 105);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left_block{
+    width: 50%;
+    height: 1080px;
+}
+
+.left_block img{
+    width: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 45%;
+}
+
+.title{
+    font-size: 400%;
+
+}
+
+.main_text{
+    margin-top: 50px;
+    font-size: 170%;
+    width: 600px;
+}
+
+/*==========RIGHT==========*/
+
+.right_block{
+    background-color: rgb(3, 3, 116);
+    width: 50%;
+    height: 1080px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    color: black;
+    border: none;
+    background: none;
+    
+    border: 1px solid var(--button-color);
+    padding: 10px 100px;
+    background-color: var(--button-color);
+    border-radius: 10px;
+
+    font-weight: bold;
+    font-size: 200%;
+}
